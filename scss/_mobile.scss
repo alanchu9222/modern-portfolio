@@ -81,12 +81,16 @@
       font-size: 5rem;
     }
   }
+  .projects {
+    .item {
+      margin-bottom: 10px !important;
+    }
+  }
   .btn {
     z-index: 2;
     transform: translate3d(0, -70px, 0);
     color: lighten($primary-color, 20);
   }
-
   .projects {
     grid-template-columns: 1fr;
   }
