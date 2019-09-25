@@ -281,7 +281,7 @@ main {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
   main {
     align-items: center;
     text-align: center; }
@@ -313,7 +313,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
   main {
     padding: 2rem; }
     main #home h1 {
@@ -322,6 +322,8 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .btn, .btn-dark, .btn-light {
-    display: none; }
+    z-index: 2;
+    transform: translate3d(0, -70px, 0);
+    color: #00cccc; }
   .projects {
     grid-template-columns: 1fr; } }

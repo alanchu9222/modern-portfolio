@@ -82,8 +82,11 @@
     }
   }
   .btn {
-    display: none;
+    z-index: 2;
+    transform: translate3d(0, -70px, 0);
+    color: lighten($primary-color, 20);
   }
+
   .projects {
     grid-template-columns: 1fr;
   }
