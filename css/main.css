@@ -186,6 +186,7 @@ main {
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects .item {
+    min-width: 252px;
     position: relative;
     min-height: 200px;
     margin-bottom: 100px; }
@@ -213,6 +214,7 @@ main {
     .projects .item-panel:hover {
       transition: all 0.5s ease-out; }
   .projects .item-note {
+    font-size: 1rem;
     color: white;
     padding: 0.5rem;
     height: 15rem; }
