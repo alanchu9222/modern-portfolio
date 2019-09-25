@@ -183,17 +183,22 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr); }
+  .projects .item-container {
+    width: 100%;
+    position: absolute; }
   .projects .item {
+    width: 100%;
     min-width: 252px;
     position: relative;
     min-height: 200px;
     margin-bottom: 100px; }
+    .projects .item .img-container {
+      position: absolute; }
     .projects .item img {
-      display: block;
-      position: absolute;
       width: 100%;
+      display: block;
       border: none;
       border-radius: 10%; }
       .projects .item img:hover {
@@ -202,11 +207,8 @@ main {
         transition: all 0.5s ease-out; }
   .projects .item-panel {
     color: #d68e74;
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
     display: block;
+    margin: auto;
     width: 90%;
     z-index: -1;
     border: solid 3px #d68e74;
@@ -229,7 +231,7 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
@@ -245,7 +247,7 @@ main {
   display: block;
   text-align: center;
   padding: 0.5rem 0.5rem;
-  margin: 0.5rem 1rem;
+  margin: 1rem 1rem;
   border: 0;
   border-radius: 20px; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
@@ -319,5 +321,7 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
+  .btn, .btn-dark, .btn-light {
+    display: none; }
   .projects {
     grid-template-columns: 1fr; } }
