@@ -183,7 +183,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects .item-container {
     width: 100%;
