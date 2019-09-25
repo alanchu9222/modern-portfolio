@@ -81,7 +81,9 @@
       font-size: 5rem;
     }
   }
-
+  .btn {
+    display: none;
+  }
   .projects {
     grid-template-columns: 1fr;
   }
