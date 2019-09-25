@@ -185,15 +185,20 @@ main {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr); }
+  .projects .item-container {
+    width: 100%;
+    position: absolute; }
   .projects .item {
+    width: 100%;
     min-width: 252px;
     position: relative;
     min-height: 200px;
     margin-bottom: 100px; }
+    .projects .item .img-container {
+      position: absolute; }
     .projects .item img {
-      display: block;
-      position: absolute;
       width: 100%;
+      display: block;
       border: none;
       border-radius: 10%; }
       .projects .item img:hover {
@@ -202,11 +207,8 @@ main {
         transition: all 0.5s ease-out; }
   .projects .item-panel {
     color: #d68e74;
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
     display: block;
+    margin: auto;
     width: 90%;
     z-index: -1;
     border: solid 3px #d68e74;

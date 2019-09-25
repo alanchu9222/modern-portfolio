@@ -112,15 +112,23 @@ main {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
+  .item-container {
+    width: 100%;
+    position: absolute;
+  }
+
   .item {
+    width: 100%;
     min-width: 252px;
     position: relative;
     min-height: 200px;
     margin-bottom: 100px;
-    img {
-      display: block;
+    .img-container {
       position: absolute;
+    }
+    img {
       width: 100%;
+      display: block;
       border: none;
       border-radius: 10%;
       &:hover {
@@ -132,12 +140,8 @@ main {
   }
   .item-panel {
     color: lighten($complementary-color, 20);
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
     display: block;
-    // position: absolute;
+    margin: auto;
     width: 90%;
     z-index: -1;
     border: solid 3px lighten($complementary-color, 20);
