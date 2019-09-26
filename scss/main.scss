@@ -211,9 +211,12 @@ main {
 
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 10);
+  // background: lighten($primary-color, 10);
+  // border: 2px solid lighten($primary-color, 50);
+  // color: set-text-color($primary-color);
+  background: black;
   border: 2px solid lighten($primary-color, 50);
-  color: set-text-color($primary-color);
+  color: white;
 }
 
 #main-footer {
