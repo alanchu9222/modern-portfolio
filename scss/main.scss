@@ -141,7 +141,7 @@ main {
   .item-panel {
     color: lighten($complementary-color, 20);
     display: block;
-    margin: auto;
+    margin: 0.5rem auto;
     width: 90%;
     z-index: -1;
     border: solid 3px lighten($complementary-color, 20);
@@ -211,6 +211,7 @@ main {
 
 .btn-light {
   @extend .btn;
+  background: lighten($primary-color, 10);
   border: 2px solid lighten($primary-color, 50);
   color: set-text-color($primary-color);
 }
