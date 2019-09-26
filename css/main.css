@@ -208,7 +208,7 @@ main {
   .projects .item-panel {
     color: #d68e74;
     display: block;
-    margin: auto;
+    margin: 0.5rem auto;
     width: 90%;
     z-index: -1;
     border: solid 3px #d68e74;
@@ -260,6 +260,7 @@ main {
   color: #fff; }
 
 .btn-light {
+  background: #009999;
   border: 2px solid #66ffff;
   color: #fff; }
 
