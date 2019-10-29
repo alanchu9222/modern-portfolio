@@ -33,8 +33,11 @@ function toggleMenu() {
 }
 
 function showSpinner() {
+  // var elementText = document.querySelector(
+  //   ".spinner-placeholder > .spinner-text"
+  // );
+  // elementText.innerHTML = "<h5>Spinning up Dyno... App loading!</h5>";
   var element = document.getElementById("spinner-placeholder");
-  element.innerHTML = "<h5>Spinning up Dyno... App loading!</h5>";
   element.classList.add("lds-spinner");
 }
 function loadDiagram() {
