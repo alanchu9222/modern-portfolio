@@ -415,7 +415,7 @@ main {
   .projects .item {
     margin-bottom: 100px !important; }
   .btn, .btn-dark, .btn-light {
-    z-index: 2;
+    z-index: 1;
     transform: translate3d(0, -70px, 0);
     color: #00cccc; }
   .projects {
