@@ -419,4 +419,7 @@ main {
     transform: translate3d(0, -70px, 0);
     color: #00cccc; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .loading {
+    top: 40%;
+    left: 15%; } }
