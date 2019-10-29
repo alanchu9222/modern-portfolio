@@ -190,11 +190,10 @@ main {
 
 // Button Styles
 .btn {
-  display: block;
-  text-align: center;
+  display: inline;
+  //text-align: center;
   padding: 0.5rem 0.5rem;
-  margin: 1rem 1rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem;
   border: 0;
   border-radius: 20px;
   &:hover {
@@ -230,7 +229,14 @@ main {
   height: 60px;
   bottom: 0;
 }
-
+.btn-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
 //Spinner
 .lds-spinner {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,

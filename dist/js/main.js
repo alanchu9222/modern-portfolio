@@ -37,3 +37,8 @@ function showSpinner() {
   element.innerHTML = "<h5>Spinning up Dyno... App loading!</h5>";
   element.classList.add("lds-spinner");
 }
+function loadDiagram() {
+  var element = document.getElementById("spinner-placeholder");
+  element.innerHTML = "<h5>Loading image... one moment!</h5>";
+  element.classList.add("lds-spinner");
+}
